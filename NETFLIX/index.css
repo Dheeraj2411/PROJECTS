@@ -1,0 +1,143 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+
+
+}
+
+.col1 {
+    flex-basis: 50%;
+    flex-grow: 1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.638), rgba(0, 0, 0, 0.39)), url(netflix\ bg\ logo.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: inherit;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    color: #fff;
+}
+
+.col2 {
+
+    flex-basis: 50%;
+    flex-grow: 1;
+
+    padding: 50px 80px;
+
+}
+
+.logo {
+
+    width: 200px;
+    margin-bottom: 30px;
+
+}
+
+.col1 ul {
+    list-style: none;
+}
+
+.col1 ul li {
+    display: flex;
+    align-items: center;
+    margin: 12px 0px;
+}
+
+.col1 ul li img {
+    width: 20px;
+    margin-right: 15px;
+}
+
+
+h2 {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+
+h2 img {
+    width: 25px;
+    margin-right: 10px;
+    margin-left: 20px;
+
+}
+
+form {
+    width: 400px;
+    color: #333;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 30px;
+    padding: 25px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    color: #999;
+    cursor: pointer;
+}
+
+label span {
+    flex: 1;
+    margin-left: 15px;
+    font-size: 34px;
+    font-weight: 600;
+    color: #333;
+}
+
+label span small {
+    font-size: 18px;
+}
+
+input[type="radio"]:checked+span {
+    color: #ff004f;
+    
+
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    background: transparent;
+    padding: 10PX 14PX;
+    outline: none;
+    border: 1px solid #333;
+    border-radius: 4Px;
+    margin: 20PX 0;
+    
+}
+
+form button {
+    
+    background: #ff004f;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 50px;
+    margin: 20px 0;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 5s;
+}
